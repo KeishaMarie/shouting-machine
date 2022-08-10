@@ -10,7 +10,7 @@ window.onload = function() {
     // // new line below
     // const nounInput = document.getElementById("nounInput").value;
 
-    document.querySelector("span#text").innerText = textInput;
+    document.querySelector("#text").innerText = textInput;
     // document.querySelector("span#person1b").innerText = person1Input;
     // document.querySelector("span#person1c").innerText = person1Input;
     // document.querySelector("span#person2a").innerText = person2Input;
@@ -21,6 +21,6 @@ window.onload = function() {
     // document.querySelector("span#noun").innerText = nounInput;
     // document.querySelector("span#exclamation").innerText = exclamationInput;
 
-    document.querySelector("div#story").removeAttribute("class");
+    document.querySelector("#story").removeAttribute("class");
   };
 };
